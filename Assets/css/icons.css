@@ -1,0 +1,28 @@
+.icon-home {
+    content: url("../icons/home.svg");
+}
+
+.icon-facebook {
+    content: url("../icons/facebook.svg");
+}
+
+.icon-instagram {
+    content: url("../icons/instagram.svg");
+}
+
+.icon-linkedin {
+    content: url("../icons/linkedin.svg");
+}
+
+.icon-twitter {
+    content: url("../icons/twitter.svg");
+}
+
+.icon-youtube {
+    content: url("../icons/youtube.svg");
+}
+
+.icon-profile {
+    content: url("../icons/profile.png");
+    width: 50px;
+}

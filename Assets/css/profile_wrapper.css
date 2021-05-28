@@ -1,0 +1,48 @@
+@import url(top_nav.css);
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px auto auto auto 80px;
+    grid-template-areas: 
+    "hd"
+    "title"
+    "profile"
+    "ft";
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header {
+    grid-area: hd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    grid-area: title;
+    text-align: center;
+}
+.title h1 {
+    color: #D1026C;
+}
+
+.profile {
+    grid-area: profile;
+    margin: 40px 0;
+}
+
+.profile h2 {
+    text-align: center;
+}
+.footer {
+    grid-area: ft;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile_tab {
+    background-color: rgb(247, 251, 255);
+}

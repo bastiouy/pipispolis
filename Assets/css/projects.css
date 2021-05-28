@@ -1,0 +1,88 @@
+@import url(top_nav.css);
+@import url(icons.css);
+@import url(projects_images.css);
+@import url(project_1.css);
+
+h2 {
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 80px auto auto 80px;
+    grid-template-areas: 
+    "hd"
+    "pr_box"
+    "pr"
+    "pr_nav"
+    "ft";
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header {
+    grid-area: hd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_box {
+    grid-area: pr_box;
+}
+.project_title {
+    grid-area: pr;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+}
+
+.project_text {
+    margin-top: 60px;
+}
+
+section {
+    margin: 50px 0;
+}
+section h3 {
+    color: rgb(0, 89, 255);
+}
+.highlight {
+    font-weight: bold;
+    color: #faab00;
+}
+
+.project_nav {
+    grid-area: pr_nav;
+}
+
+.project_nav_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.project_nav_cell {
+    display: flex;
+}
+.cell_A {
+    justify-content: flex-start;
+    margin-left: 10%;
+}
+.cell_B {
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+.footer {
+    grid-area: ft;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects_tab {
+    background-color: rgb(247, 251, 255);
+}

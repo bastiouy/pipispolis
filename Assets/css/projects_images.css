@@ -1,0 +1,91 @@
+.projects-grid img {
+    width: 100%;
+}
+
+#project-1-img {
+    background-image: url(../images/chair.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width: 500px) {
+    #project-1-img {
+        background: linear-gradient(rgba(253,253,232,0.9), rgba(253,253,253,0.6)), url(../images/chair.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+#project-1-img:hover {
+    background: linear-gradient(rgba(253,253,232,0.9), rgba(253,253,253,0.6)), url(../images/chair.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#project_box_1 {
+    background: linear-gradient(rgba(253,253,232,0.9), rgba(253,253,253,0)), url(../images/chair.jpg) no-repeat center top fixed;
+    background-size: cover;
+}
+
+#project-2-img {
+    background-image: url(../images/look.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width: 500px) {
+    #project-2-img {
+        background: linear-gradient(rgba(253,253,232,0.9), rgba(253,253,253,0.6)), url(../images/look.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+#project-2-img:hover {
+    background: linear-gradient(rgba(253,253,232,0.9), rgba(253,253,253,0.6)), url(../images/look.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#project_box_2 {
+    background: linear-gradient(rgba(253,253,232,0.9), rgba(253,253,253,0)), url(../images/look.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#project-3-img {
+    background-image: url(../images/tails.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width: 500px) {
+    #project-3-img {
+        background: linear-gradient(rgba(253,253,232,0.9), rgba(253,253,253,0.6)), url(../images/tails.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+#project-3-img:hover {
+    background: linear-gradient(rgba(253,253,232,0.9), rgba(253,253,253,0.6)), url(../images/tails.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#project_box_3 {
+    background: linear-gradient(rgba(253,253,232,0.9), rgba(253,253,253,0)), url(../images/tails.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+#project-4-img {
+    background-image: url(../images/window.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width: 500px) {
+    #project-4-img {
+        background: linear-gradient(rgba(253,253,232,0.9), rgba(253,253,253,0.6)), url(../images/window.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+#project-4-img:hover {
+    background: linear-gradient(rgba(253,253,232,0.9), rgba(253,253,253,0.6)), url(../images/window.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#project_box_4 {
+    background: linear-gradient(rgba(253,253,232,0.9), rgba(253,253,253,0)), url(../images/window.jpg) no-repeat center center fixed;
+    background-size: cover;
+}

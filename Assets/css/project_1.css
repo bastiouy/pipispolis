@@ -1,0 +1,35 @@
+.project_1_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+    grid-template-areas: 
+    "pic_1"
+    "pic_2";
+}
+@media (min-width: 900px) {
+    .project_1_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0;
+        grid-template-areas: 
+        "pic_1 pic_2"
+    }
+}
+.project_1_cell {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.project_1_cell img {
+    max-width: 100%;
+}
+
+.cell_1 {
+    grid-area: pic_1;
+
+}
+
+.cell_2 {
+    grid-area: pic_2;
+}
